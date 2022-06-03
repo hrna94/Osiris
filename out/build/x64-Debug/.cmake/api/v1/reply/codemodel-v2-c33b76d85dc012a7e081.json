@@ -1,0 +1,272 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						15
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "Dependencies",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Dependencies"
+				},
+				{
+					"build" : "Dependencies/imgui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Dependencies/imgui"
+				},
+				{
+					"build" : "Dependencies/freetype",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Dependencies/freetype"
+				},
+				{
+					"build" : "Dependencies/MinHook",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Dependencies/MinHook"
+				},
+				{
+					"build" : "Source",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						14
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Source"
+				},
+				{
+					"build" : "Source/Hacks",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "Source/Hacks"
+				},
+				{
+					"build" : "Source/Hooks",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "Source/Hooks"
+				},
+				{
+					"build" : "Source/InventoryChanger",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "Source/InventoryChanger"
+				},
+				{
+					"build" : "Source/InventoryChanger/Backend",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "Source/InventoryChanger/Backend"
+				},
+				{
+					"build" : "Source/InventoryChanger/GameIntegration",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "Source/InventoryChanger/GameIntegration"
+				},
+				{
+					"build" : "Source/InventoryChanger/GameItems",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "Source/InventoryChanger/GameItems"
+				},
+				{
+					"build" : "Source/InventoryChanger/Inventory",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "Source/InventoryChanger/Inventory"
+				},
+				{
+					"build" : "Source/InventoryChanger/ItemGenerator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "Source/InventoryChanger/ItemGenerator"
+				},
+				{
+					"build" : "Source/SDK",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "Source/SDK"
+				},
+				{
+					"build" : "Source/Resources/Shaders",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Source/Resources/Shaders",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "Osiris",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Osiris::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Osiris-Debug-2a568a43858e8f6ded83.json",
+					"name" : "Osiris",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OsirisOBJ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OsirisOBJ-Debug-ae0e99deeaddd156bb52.json",
+					"name" : "OsirisOBJ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "Shaders::@f1be873c723ad378b0c8",
+					"jsonFile" : "target-Shaders-Debug-a9d85dbc15ee3075e93e.json",
+					"name" : "Shaders",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/hrna/projekty/OSIRISUPDATED/out/build/x64-Debug",
+		"source" : "C:/Users/hrna/projekty/OSIRISUPDATED"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

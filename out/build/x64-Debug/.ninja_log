@@ -1,0 +1,4 @@
+# ninja log v5
+3	69	6757762534697060	../../../Source/Resources/Shaders/Build/default_vs.h	9e99a375d780da16
+69	771	6757762541708418	CMakeFiles/OsirisOBJ.dir/cmake_pch.c.obj	5b2a7811e3915337
+72	4016	6757762574138031	CMakeFiles/OsirisOBJ.dir/cmake_pch.cxx.obj	dcee4a676e26b898
